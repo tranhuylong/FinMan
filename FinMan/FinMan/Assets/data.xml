@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<finman>
+  <income>Choose one...</income>
+  <income>Salary</income>
+  <outcome>Choose one...</outcome>
+  <outcome>Breakfast</outcome>
+  <fin id="201705">
+    <salary>4000000</salary>
+  </fin>
+</finman>
