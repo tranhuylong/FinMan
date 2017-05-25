@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="FinMan.IncomeValue"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinMan"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="txt_vIncome" HorizontalAlignment="Left" Margin="263,263,0,0" TextWrapping="Wrap" Text="Value" VerticalAlignment="Top" FontSize="48" Width="554"/>
+        <Button x:Name="btn_cfmIncome" Content="Confirm" HorizontalAlignment="Left" Margin="263,537,0,0" VerticalAlignment="Top" FontSize="48" Click="btn_cfmIncome_Click"/>
+        <TextBlock x:Name="txt_typeIncome" HorizontalAlignment="Left" Margin="208,106,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="48" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
